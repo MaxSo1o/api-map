@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  color: #00726a;
+  font-family: 'PT Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  background: #FFFFFF;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.hide-name {
+  margin: 25px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input-index {
+  padding: 25px;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background: linear-gradient(147deg,#00798cb3 28.96%,#2d81b7b3 39%,#557bbbb3 45.86%,#aa94c5b3 66.57%)
+}
+
+.input-box {
+  position: relative;
+  margin: 15px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-input {
+  border-radius: 5px;
+  background: #00798c;
+  overflow: hidden;
+}
+
+.input-box span {
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+}
+
+.input-box input {
+  font-size: 16px;
+  padding: 5px 10px;
+  width: 100%;
+  outline: none;
+  background: #FFFFFF;
+  color: #000000;
+  border: none;
+  transition: .3s ease;
+  border-radius: 5px;
+}
+
+.input-box input:focus {
+  border-radius: 5px 5px 0 0;
+}
+
+.distantion {
+  background: #FFFFFF;
+  width: 40%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.distantion-data {
+  color: #5c0404;
+}
+
+.distantion {
+  color: #6e6e6e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.suggestions-container {
+  position: relative;
+  background: #FFFFFF;
+}
+
+.hide-city{
+  position: absolute;
+  background: #FFFFFF;
+  list-style-type: none;
+  z-index: 1;
+  width: 100%;
+}
+
+.hide-city li{
+  padding: 5px 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.hide-city li:hover{
+  background: rgb(251, 241, 255);
+}
