@@ -1,7 +1,7 @@
 import React, {useCallback, useMemo, useState} from "react";
-import {debounce} from "../utils";
-import {getCity} from "../services";
-import {InputBoxProps} from "../interfaces";
+import {debounce} from "./utils";
+import {getCity} from "./services";
+import {InputBoxProps} from "./interfaces";
 
 const InputBox: React.FC<InputBoxProps> = ({ label, name, onSuggestionClick, inputClear }) => {
     const [inputValue, setInputValue] = useState<string>('');

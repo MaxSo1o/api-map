@@ -1,8 +1,8 @@
 import React, {useCallback, useEffect, useState} from "react";
-import {getCord} from "../services";
-import {getDistance} from "../utils";
-import InputBox from "./Input";
-import {Coords} from "../interfaces";
+import {Coords} from "./interfaces";
+import {getCord} from "./services";
+import {getDistance} from "./utils";
+import InputBox from "./InputBox";
 
 const MainDistance: React.FC = () => {
     const [firstCoord, setFirstCoord] = useState<Coords | null>(null);
